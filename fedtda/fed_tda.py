@@ -19,9 +19,7 @@ COND_IDX = str(uuid.uuid4())
 EPSILON = np.finfo(np.float32).eps
 
 class FedTabularDataSyn:
-    """
 
-    """
     _model = None
     _metadata = None
     _DTYPE_TRANSFORMERS = {
@@ -37,7 +35,6 @@ class FedTabularDataSyn:
                  field_distributions=None, default_distribution=None,
                  categorical_transformer=None, rounding='auto', min_value='auto',
                  max_value='auto'):
-        """
 
         # if metadata object has been fitted
         self._metadata_fitted = False
