@@ -1,6 +1,8 @@
 # Fed-TDA
 The implementation of our paper "Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data"
 
+Other baseline methods: [Fedmix](https://github.com/smduan/FedMix), [Fedprox](https://github.com/smduan/FedProx), and [DP-FedAvg-GAN](https://github.com/smduan/HT-Fed-GAN/tree/main/dp-fedavg-gan).
+
 origin data and synthsis data are saved in path `./data`
 
 Run this repo:
