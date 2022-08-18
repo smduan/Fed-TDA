@@ -1,5 +1,5 @@
 import torch
-from fedavg.datasets import get_dataset, VRDataset
+from fedavg.datasets import get_dataset
 import numpy as np
 from sklearn.metrics import roc_auc_score, f1_score
 
