@@ -1,5 +1,5 @@
 # Fed-TDA
-The implementation of our paper "Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data"
+The implementation of our paper [Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data](https://arxiv.org/pdf/2211.13116.pdf)
 
 Other baseline methods are as follow:
 
@@ -21,3 +21,14 @@ python clinical_TDA_syn.py
 ```
 
 2. run script "clinical_eval.ipynb" to evaluate the performance of data augmentation
+
+#Citing Fed-TDA
+```
+@article{duan2022fed,
+  title={Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data},
+  author={Duan, Shaoming and Liu, Chuanyi and Han, Peiyi and He, Tianyu and Xu, Yifeng and Deng, Qiyuan},
+  journal={arXiv preprint arXiv:2211.13116},
+  year={2022}
+}
+
+```
