@@ -22,7 +22,7 @@ python clinical_TDA_syn.py
 
 2. run script "clinical_eval.ipynb" to evaluate the performance of data augmentation
 
-#Citing Fed-TDA
+# Citing Fed-TDA
 ```
 @article{duan2022fed,
   title={Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data},
