@@ -1,9 +1,17 @@
 # Fed-TDA
 The implementation of our paper "Fed-TDA: Federated Tabular Data Augmentation on Non-IID Data"
 
-Other baseline methods: [Fedmix](https://github.com/smduan/FedMix), [Fedprox](https://github.com/smduan/FedProx), and [DP-FedAvg-GAN](https://github.com/smduan/HT-Fed-GAN/tree/main/dp-fedavg-gan).
+Other baseline methods are as follow:
 
-origin data and synthesized data are saved in path `./data`
+[1] FedMix: Approximation of Mixup under Mean Augmented Federated Learning| [paper](https://arxiv.org/pdf/2107.00233.pdf)| [code](https://github.com/smduan/FedMix)
+
+[2]FEDERATED OPTIMIZATION IN HETEROGENEOUS NETWORKS |[paper](https://proceedings.mlsys.org/paper/2020/file/38af86134b65d0f10fe33d30dd76442e-Paper.pdf)|[code](https://github.com/smduan/FedProx)
+
+[3]Fed-TGAN: Federated learning framework for synthesizing tabular data|[paper](https://arxiv.org/pdf/2108.07927.pdf)|[code](https://github.com/smduan/Fed-TGAN)
+
+[4]Generative models for effective ML on private, decentralized datasets|[paper](https://arxiv.org/pdf/1911.06679.pdf)|[code](https://github.com/smduan/HT-Fed-GAN/tree/main/dp-fedavg-gan)
+
+# Usage Example
 
 Run this repo:
 1. generate synthetic data from Clinical dataset:
@@ -12,4 +20,4 @@ Run this repo:
 python clinical_TDA_syn.py
 ```
 
-2. run eval script "clinical_eval.ipynb"
+2. run script "clinical_eval.ipynb" to evaluate the performance of data augmentation
