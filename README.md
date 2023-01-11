@@ -14,7 +14,7 @@ Other baseline methods are as follow:
 # Usage Example
 
 Run this repo:
-1. generate synthetic data from Clinical dataset:
+1. generate synthetic data on Clinical dataset:
 
 ```
 python clinical_TDA_syn.py
